@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20231002 18:15:12.513" rpa="false" schemaversion="4">
+<suite id="s1" name="ForloopDemo" source="C:\Users\LENOVO.T470s\OneDrive\Desktop\py-k\pract\Robotframework\testcases\ForloopDemo.robot">
+<test id="s1-t1" name="Forloop2" line="17">
+<kw name=":FOR">
+<arg>${i}</arg>
+<arg>IN</arg>
+<arg>1 2 3 4 5 6 7 8</arg>
+<msg timestamp="20231002 18:15:12.551" level="FAIL">Support for the old FOR loop syntax has been removed. Replace ':FOR' with 'FOR', end the loop with 'END', and remove escaping backslashes.</msg>
+<status status="FAIL" starttime="20231002 18:15:12.551" endtime="20231002 18:15:12.552"/>
+</kw>
+<kw name="\">
+<arg>LOG TO CONSOLE</arg>
+<arg>${i}</arg>
+<status status="NOT RUN" starttime="20231002 18:15:12.552" endtime="20231002 18:15:12.552"/>
+</kw>
+<status status="FAIL" starttime="20231002 18:15:12.551" endtime="20231002 18:15:12.553">Support for the old FOR loop syntax has been removed. Replace ':FOR' with 'FOR', end the loop with 'END', and remove escaping backslashes.</status>
+</test>
+<status status="FAIL" starttime="20231002 18:15:12.516" endtime="20231002 18:15:12.554"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="ForloopDemo">ForloopDemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
